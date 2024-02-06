@@ -26,39 +26,69 @@
 <body>
     
     <header>
-        
+
         <div class="container">
-            <div class="container__"></div>
-            <div class="header">
-                <div class="header__logo">
-                    <img src="img/logo/logo.png" alt="logo Fib - paste bar">
+            <div class="upper-header">
+                <div class="upper-header__logo">
+                    <a href="#"><img src="img/logo/logo.png" alt="logo Fib - paste bar"></a>
                 </div>
-                <div class="header__content">
-                    <div class="header__title">Доставка пасты <span>Москва</span></div>
-                    <div class="header__subtitle">
-                        <div class="header-yandex">
-                            <img src="icons/heander/yandex-food_.svg" alt="logo yandex-food">
-                            <span>Яндекс еда</span>
-                            <div class="header-yandex__dot dot"></div>
-                            <span>4.8</span>
-                            <img src="icons/heander/star.svg" alt="yellow star">
-                        </div>
-                        <div class="header-time">
-                            <span>Время доставки</span>
-                            <div class="header-time__dot dot"></div>
-                            <span>от 31 мин</span>
-                        </div>
+                <div class="upper-header__content">
+                    <div class="upper-header__title">Доставка пасты <span>Москва</span></div>
+                    <div class="upper-header__subtitle">
+                        <img src="icons/heander/yandex-food_.svg" alt="logo yandex-food">
+                        <div class="upper-header__yandex">Яндекс еда</div>
+                        <div class="upper-header__dot"></div>
+                        <div class="upper-header__mark">4.8</div>
+                        <img src="icons/heander/star.svg" alt="yellow star">
+                        <div class="upper-header__delivery">Время доставки</div>
+                        <div class="upper-header__dot"></div>
+                        <div class="upper-header__time">от 31 мин</div>
                     </div>
                 </div>
-                <div class="header__contact">
-                    <div class="header__btn btn">Заказать звонок</div>
-                    <div class="header__phone phone">
-                        
+                <div class="upper-header__contact">
+                    <button class="btn btn_call upper-header__btn">Заказать звонок</button>
+                    <div class="phone upper-header__phone">
                         <a href="tel:+74993918449">8 499 391-84-49</a>
+                    </div>
+                    <button class="btn btn_basket upper-header__basket">Корзина <span></span> 1</button>
+                    <div class="upper-header__hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
                     </div>
                 </div>
             </div>
+            <nav class="down-header down-header_active">
+                <div class="down-header__close"></div>
+                <div class="down-header__logo">
+                    <img src="img/logo/logo.png" alt="logo Fib - paste bar">
+                </div>
+                <div class="container">
+                    <div class="menu">
+                        <ul>
+                            <li class="menu__item"><a href="#">Пицца</a></li>
+                            <li class="menu__item"><a href="#">Паста</a></li>
+                            <li class="menu__item"><a href="#">Супы</a></li>
+                            <li class="menu__item"><a href="#">Салаты</a></li>
+                            <li class="menu__item"><a href="#">Напитки</a></li>
+                            <li class="menu__item"><a href="#">Десерты</a></li>
+                            <li class="menu__item"><a href="#">Бакалея</a></li>
+                            <li class="menu__item"><a href="#">Антипасти</a></li>
+                            <li class="menu__item"><a href="#">Акции</a></li>
+                            <li class="menu__item"><a href="#">Комбо</a></li>
+                            <li class="menu__item"><a href="#">Контакты</a></li>
+                        </ul>
+                        <div class="menu__link"><a href="#">Войти</a></div>
+                        <div class="phone menu__phone">
+                            <a href="tel:+74993918449">8 499 391-84-49</a>
+                        </div>
+                        <div class="btn btn_basket menu__basket">Корзина <span></span> 1</div>
+                    </div>
+                </div>
+            </nav>
         </div>
+        
+
     </header>
 
     <script src="js/script.js"></script>

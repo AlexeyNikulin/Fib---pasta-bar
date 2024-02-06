@@ -1,0 +1,55 @@
+.btn {
+    width: 180px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 28px;
+    background: var(--light-grey-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 200%;
+    color: var(--dark-grey-color);
+    cursor: pointer;
+    outline: none;
+    border: none;
+    transition: all 0.4s ease-in-out;
+    &:focus {
+        border: none;
+        outline: none;
+    }
+    &_call {
+        &:focus {
+            @include btn_hover;
+        }
+        &:hover {
+            @include btn_hover;
+        }
+    }
+    &_basket {
+        width: 160px;
+        height: 42px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 8px;
+        background: var(--yellow-color);
+        font-weight: 700;
+        font-size: 16px;
+        color: #231f20;
+        span {
+            display: block;
+            border-radius: 5px;
+            width: 2px;
+            height: 23px;
+            background: #231f20;
+            margin: 0 14px;
+        }
+		&:focus {
+            @include basket_hover;
+        }
+        &:hover {
+            @include basket_hover;
+        }
+    }
+}

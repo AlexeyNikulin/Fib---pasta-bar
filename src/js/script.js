@@ -1,6 +1,6 @@
-let arr = [1, 2, 3];
+// ! Не забудь доделать
+// ? Мне это надо?
+// TODO: Это надо!
+'use strict';
 
-let a = 'asd';
-function aqwe() {
 
-}
