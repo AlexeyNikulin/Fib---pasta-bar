@@ -13,3 +13,21 @@
     font-weight: 700;
     outline: none;
 }
+
+@mixin prev-next_arrow {
+    position: absolute;
+    width: 31px;
+    height: 31px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    background: var(--yellow-color);
+    cursor: pointer;
+    border: none;
+    outline: none;
+    &:focus {
+        border: none;
+        outline: none;
+    }
+}
